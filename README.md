@@ -2,7 +2,7 @@
 
 Open Net Worth — a self-hosted AI personal-finance ledger and agent: accounts, holdings, net worth and an AI analyst that works on your own books. Deploy on Railway with one click.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TEMPLATE_CODE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/AKwi7J)
 
 This repository packages the official [Open Net Worth](https://github.com/open-net-worth-ai/open-net-worth) image (`ghcr.io/open-net-worth-ai/open-net-worth:0.1.43`, AGPL-3.0) for Railway. It is an independent community packaging, not affiliated with or endorsed by the Open Net Worth project.
 
