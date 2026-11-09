@@ -8,7 +8,7 @@ This repository packages the official [Open Net Worth](https://github.com/open-n
 
 ## What you get
 
-- One service from `ghcr.io/onepush-dev/open-net-worth:0.1.43`: the upstream image unmodified plus a start script that fixes volume ownership, drops to the unprivileged `onw` user and listens dual-stack on `$PORT` (8080).
+- One service from `ghcr.io/onepush-dev/open-net-worth:0.1.43`: the upstream image unmodified plus a start script that fixes volume ownership, drops to the unprivileged `onw` user and listens on `0.0.0.0:$PORT` (8080).
 - **Password login from the first second**: `AUTH_PASSWORD` is generated per deploy and seeds the instance password on first boot (no first-visitor setup race). Change it later in Settings → Security; after that the stored password wins.
 - **Persistent data** on one Railway volume at `/home/onw`: SQLite ledger, caches, logs, backups and any Claude Code / Codex / OpenCode CLI sign-ins.
 
